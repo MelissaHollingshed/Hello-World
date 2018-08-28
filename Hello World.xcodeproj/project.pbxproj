@@ -13,8 +13,6 @@
 		A1D571B62134D90A0034CF9E /* Hello_World.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = A1D571B42134D90A0034CF9E /* Hello_World.xcdatamodeld */; };
 		A1D571B82134D90B0034CF9E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A1D571B72134D90B0034CF9E /* Assets.xcassets */; };
 		A1D571BB2134D90B0034CF9E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A1D571B92134D90B0034CF9E /* LaunchScreen.storyboard */; };
-		A1D571C62134D90B0034CF9E /* Hello_WorldTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1D571C52134D90B0034CF9E /* Hello_WorldTests.swift */; };
-		A1D571D12134D90B0034CF9E /* Hello_WorldUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1D571D02134D90B0034CF9E /* Hello_WorldUITests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,11 +42,7 @@
 		A1D571BA2134D90B0034CF9E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A1D571BC2134D90B0034CF9E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A1D571C12134D90B0034CF9E /* Hello WorldTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Hello WorldTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		A1D571C52134D90B0034CF9E /* Hello_WorldTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Hello_WorldTests.swift; sourceTree = "<group>"; };
-		A1D571C72134D90B0034CF9E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A1D571CC2134D90B0034CF9E /* Hello WorldUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Hello WorldUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		A1D571D02134D90B0034CF9E /* Hello_WorldUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Hello_WorldUITests.swift; sourceTree = "<group>"; };
-		A1D571D22134D90B0034CF9E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,8 +74,6 @@
 			isa = PBXGroup;
 			children = (
 				A1D571AC2134D90A0034CF9E /* Hello World */,
-				A1D571C42134D90B0034CF9E /* Hello WorldTests */,
-				A1D571CF2134D90B0034CF9E /* Hello WorldUITests */,
 				A1D571AB2134D90A0034CF9E /* Products */,
 			);
 			sourceTree = "<group>";
@@ -108,24 +100,6 @@
 				A1D571B42134D90A0034CF9E /* Hello_World.xcdatamodeld */,
 			);
 			path = "Hello World";
-			sourceTree = "<group>";
-		};
-		A1D571C42134D90B0034CF9E /* Hello WorldTests */ = {
-			isa = PBXGroup;
-			children = (
-				A1D571C52134D90B0034CF9E /* Hello_WorldTests.swift */,
-				A1D571C72134D90B0034CF9E /* Info.plist */,
-			);
-			path = "Hello WorldTests";
-			sourceTree = "<group>";
-		};
-		A1D571CF2134D90B0034CF9E /* Hello WorldUITests */ = {
-			isa = PBXGroup;
-			children = (
-				A1D571D02134D90B0034CF9E /* Hello_WorldUITests.swift */,
-				A1D571D22134D90B0034CF9E /* Info.plist */,
-			);
-			path = "Hello WorldUITests";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -269,7 +243,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A1D571C62134D90B0034CF9E /* Hello_WorldTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -277,7 +250,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A1D571D12134D90B0034CF9E /* Hello_WorldUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
