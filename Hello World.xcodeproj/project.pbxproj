@@ -8,11 +8,11 @@
 
 /* Begin PBXBuildFile section */
 		A1D571AE2134D90A0034CF9E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1D571AD2134D90A0034CF9E /* AppDelegate.swift */; };
-		A1D571B02134D90A0034CF9E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1D571AF2134D90A0034CF9E /* ViewController.swift */; };
 		A1D571B32134D90A0034CF9E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A1D571B12134D90A0034CF9E /* Main.storyboard */; };
 		A1D571B62134D90A0034CF9E /* Hello_World.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = A1D571B42134D90A0034CF9E /* Hello_World.xcdatamodeld */; };
 		A1D571B82134D90B0034CF9E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A1D571B72134D90B0034CF9E /* Assets.xcassets */; };
 		A1D571BB2134D90B0034CF9E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A1D571B92134D90B0034CF9E /* LaunchScreen.storyboard */; };
+		A1D571DF2134F86F0034CF9E /* HelloWorldViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1D571DE2134F86F0034CF9E /* HelloWorldViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,7 +35,6 @@
 /* Begin PBXFileReference section */
 		A1D571AA2134D90A0034CF9E /* Hello World.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Hello World.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A1D571AD2134D90A0034CF9E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		A1D571AF2134D90A0034CF9E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		A1D571B22134D90A0034CF9E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		A1D571B52134D90A0034CF9E /* Hello_World.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Hello_World.xcdatamodel; sourceTree = "<group>"; };
 		A1D571B72134D90B0034CF9E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -43,6 +42,7 @@
 		A1D571BC2134D90B0034CF9E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A1D571C12134D90B0034CF9E /* Hello WorldTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Hello WorldTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A1D571CC2134D90B0034CF9E /* Hello WorldUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Hello WorldUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A1D571DE2134F86F0034CF9E /* HelloWorldViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HelloWorldViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -92,12 +92,12 @@
 			isa = PBXGroup;
 			children = (
 				A1D571AD2134D90A0034CF9E /* AppDelegate.swift */,
-				A1D571AF2134D90A0034CF9E /* ViewController.swift */,
 				A1D571B12134D90A0034CF9E /* Main.storyboard */,
 				A1D571B72134D90B0034CF9E /* Assets.xcassets */,
 				A1D571B92134D90B0034CF9E /* LaunchScreen.storyboard */,
 				A1D571BC2134D90B0034CF9E /* Info.plist */,
 				A1D571B42134D90A0034CF9E /* Hello_World.xcdatamodeld */,
+				A1D571DE2134F86F0034CF9E /* HelloWorldViewController.swift */,
 			);
 			path = "Hello World";
 			sourceTree = "<group>";
@@ -234,8 +234,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				A1D571B62134D90A0034CF9E /* Hello_World.xcdatamodeld in Sources */,
-				A1D571B02134D90A0034CF9E /* ViewController.swift in Sources */,
 				A1D571AE2134D90A0034CF9E /* AppDelegate.swift in Sources */,
+				A1D571DF2134F86F0034CF9E /* HelloWorldViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
